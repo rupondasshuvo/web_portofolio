@@ -13,10 +13,12 @@ nav{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding-right: 90px;
+      padding-left: 60px ;
 }
 nav ul{
       display: flex;
-      margin-left: 750px;
+      /* margin-left: 750px; */
 }
 nav li{
       list-style: none;
@@ -37,6 +39,16 @@ nav a{
     border-radius: 9px;
     font-size: 20px;
     padding: 7px 15px;
-    border: 3px solid ;
+    border: 0px solid ;
     
+}
+/* header related style */
+.header{
+      background-color: rgb(245, 215, 215);
+      align-items: center;
+  
+}
+.bannner{
+      display:flex ;
+      padding: 30px 30px 30px 150px;
 }
