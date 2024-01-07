@@ -13,7 +13,7 @@ nav{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-right: 90px;
+      padding-right: 150px;
       padding-left: 60px ;
 }
 nav ul{
@@ -45,10 +45,35 @@ nav a{
 /* header related style */
 .header{
       background-color: rgb(245, 215, 215);
+      background-image: url(/images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+     
+      padding-top: 50px;
       align-items: center;
   
 }
+.profile{
+      height: 700px;
+      padding-right: 60px;
+}
 .bannner{
       display:flex ;
-      padding: 30px 30px 30px 150px;
+      padding: 30px 30px 0px 150px;
+}
+.text2{
+   align-items: center;
+   padding-top: 80px;
+}
+#hi{
+      font-size: 30px;
+}
+#mark_curry{
+      font-size: 45px;
+}
+#paragraph{
+      font-size: 20px;
+}
+.name_color{
+      color: orangered;
 }
