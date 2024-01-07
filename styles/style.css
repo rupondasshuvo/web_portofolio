@@ -1,0 +1,42 @@
+/* common shared style */
+body{
+      
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+}
+.web-title{
+      font-size: 50px;
+      margin-left: 90px;
+}
+/* nav related style */
+nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+nav ul{
+      display: flex;
+      margin-left: 750px;
+}
+nav li{
+      list-style: none;
+      margin-left: 50px;
+      
+
+}
+nav a{
+      text-decoration: none;
+
+}
+.color_of_r{
+      color: coral;
+}
+.primary_color{
+      color: rgb(255, 241, 241);
+    background-color: rgb(205, 85, 41);
+    border-radius: 9px;
+    font-size: 20px;
+    padding: 7px 15px;
+    border: 3px solid ;
+    
+}
