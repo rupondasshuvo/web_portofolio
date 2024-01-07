@@ -108,3 +108,19 @@ nav a{
 .justify_text{
       text-align: center;
 }
+.what_I_DO{
+      text-align: center;
+      padding:30px 150px;
+      
+}
+.what{
+      font-size: 30px;
+}
+.para3{
+      font-size: 20px;
+}
+.skills{
+      display: flex;
+      background-color: antiquewhite;
+      
+}
