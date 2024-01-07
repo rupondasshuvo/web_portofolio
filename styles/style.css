@@ -19,10 +19,13 @@ nav{
 nav ul{
       display: flex;
       /* margin-left: 750px; */
+     
+
 }
 nav li{
       list-style: none;
       margin-left: 50px;
+    
       
 
 }
@@ -48,6 +51,7 @@ nav a{
       background-image: url(/images/header_bg.png);
       background-repeat: no-repeat;
       background-position: bottom right;
+  
      
       padding-top: 50px;
       align-items: center;
@@ -73,7 +77,34 @@ nav a{
 }
 #paragraph{
       font-size: 20px;
+      margin-bottom: 60px;
 }
 .name_color{
       color: orangered;
+}
+/* main  section style */
+
+.about{
+      align-items: center;
+      background-color: rgb(245, 215, 215);
+      margin:120px 40px;
+      padding: 100px;
+}
+.section_title{
+      text-align: center;
+      font-size: 30px;
+}
+#paragraph2{
+      font-size: 20px;
+      color: rgb(135, 133, 129);
+}
+.about_container{
+      display: flex;
+      justify-content:space-between;
+     
+      
+     
+}
+.justify_text{
+      text-align: center;
 }
